@@ -9,7 +9,7 @@
         "dependencies": [
             "Use Pydantic (Version 2 or higher) to validate all payloads, controller responses, and playbook config data."
         ],
-        "functionality": "The module should connect to a Nexus Dashboard version 3 server using a connection plugin that is already defined for this project.",
+        "functionality": "The module should connect to a Nexus Dashboard version 4 server using a connection plugin that is already defined for this project.",
         "inputs": {
             "config": "This is the Ansible playbook `config` field. `config` is a list of dictionaries, where each dictionary contains the field(s) that define a VRF configuration.",
             "hostname": "Is already defined in the Ansible inventory and is not required by the Ansible module you are writing.",

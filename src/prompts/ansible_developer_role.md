@@ -32,7 +32,7 @@ If you have questions about what a given state should do, please feel free to as
 
 Here are the requirements for the Ansible module you are developing:
 
-- **Functionality:** The module should connect to a Nexus Dashboard version 3 server using a connection plugin that is already defined for this project.
+- **Functionality:** The module should connect to a Nexus Dashboard version 4 server using a connection plugin that is already defined for this project.
 - **Inputs:**
   - `hostname`: Is already defined in the Ansible inventory and is not required by the Ansible module you are writing.
   - `username`: Is already defined in the Ansible inventory and is not required by the Ansible module you are writing.
