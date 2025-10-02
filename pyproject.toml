@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "black>=25.9.0",
+    "fastmcp>=2.12.4",
     "isort>=6.1.0",
     "mypy>=1.18.2",
     "pylint>=3.3.8",
