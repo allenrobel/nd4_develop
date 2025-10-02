@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "NexusDashboardAnsibleDeveloper": {
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "fastmcp",
+        "run",
+        "/Users/arobel/repos/mcp/demo/src/server_fastmcp.py"
+      ],
+      "command": "/opt/homebrew/bin/uv"
+    }
+  }
+}

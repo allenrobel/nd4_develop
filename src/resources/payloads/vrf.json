@@ -1,0 +1,10 @@
+{
+    "fabric": "f1",
+    "serviceVrfTemplate": null,
+    "source": null,
+    "vrfExtensionTemplate": "Default_VRF_Extension_Universal",
+    "vrfId": 9008011,
+    "vrfName": "ansible-vrf-int1",
+    "vrfTemplate": "Default_VRF_Universal",
+    "vrfTemplateConfig": "{\"advertiseDefaultRouteFlag\":true,\"advertiseHostRouteFlag\":false,\"bgpPassword\":\"\",\"bgpPasswordKeyType\":3,\"disableRtAuto\":false,\"routeTargetExportEvpn\":\"\",\"routeTargetExportMvpn\":\"\",\"routeTargetExport\":\"\",\"routeTargetImportEvpn\":\"\",\"routeTargetImportMvpn\":\"\",\"routeTargetImport\":\"\",\"ipv6LinkLocalFlag\":true,\"tag\":12345,\"maxBgpPaths\":1,\"maxIbgpPaths\":2,\"ENABLE_NETFLOW\":false,\"NETFLOW_MONITOR\":\"\",\"isRPAbsent\":false,\"multicastGroup\":\"\",\"vrfRouteMap\":\"FABRIC-RMAP-REDIST-SUBNET\",\"rpAddress\":\"\",\"isRPExternal\":false,\"loopbackNumber\":\"\",\"configureStaticDefaultRouteFlag\":true,\"trmBGWMSiteEnabled\":false,\"trmEnabled\":false,\"L3VniMcastGroup\":\"\",\"vrfVlanId\":500,\"vrfDescription\":\"\",\"vrfSegmentId\":9008011,\"mtu\":9216,\"vrfIntfDescription\":\"\",\"vrfName\":\"ansible-vrf-int1\",\"vrfVlanName\":\"\"}"
+}

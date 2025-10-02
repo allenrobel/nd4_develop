@@ -1,0 +1,73 @@
+{
+    "DATA": [
+        {
+            "lanAttachList": [
+                {
+                    "entityName": "ansible-vrf-int1",
+                    "fabricName": "f1",
+                    "instanceValues": "{\"loopbackIpV6Address\":\"\",\"loopbackId\":\"\",\"deviceSupportL3VniNoVlan\":\"false\",\"switchRouteTargetImportEvpn\":\"\",\"loopbackIpAddress\":\"\",\"switchRouteTargetExportEvpn\":\"\"}",
+                    "ipAddress": "172.22.150.112",
+                    "isLanAttached": true,
+                    "lanAttachState": "IN PROGRESS",
+                    "peerSerialNo": null,
+                    "switchName": "cvd-1211-spine",
+                    "switchRole": "border spine",
+                    "switchSerialNo": "FOX2109PGCS",
+                    "vlanId": 500,
+                    "vrfId": 9008011,
+                    "vrfName": "ansible-vrf-int1"
+                },
+                {
+                    "entityName": "ansible-vrf-int1",
+                    "fabricName": "f1",
+                    "instanceValues": "{\"loopbackIpV6Address\":\"\",\"loopbackId\":\"\",\"deviceSupportL3VniNoVlan\":\"false\",\"switchRouteTargetImportEvpn\":\"\",\"loopbackIpAddress\":\"\",\"switchRouteTargetExportEvpn\":\"\"}",
+                    "ipAddress": "172.22.150.113",
+                    "isLanAttached": true,
+                    "lanAttachState": "IN PROGRESS",
+                    "peerSerialNo": null,
+                    "switchName": "cvd-1212-spine",
+                    "switchRole": "border spine",
+                    "switchSerialNo": "FOX2109PGD0",
+                    "vlanId": 500,
+                    "vrfId": 9008011,
+                    "vrfName": "ansible-vrf-int1"
+                },
+                {
+                    "entityName": null,
+                    "fabricName": "f1",
+                    "instanceValues": null,
+                    "ipAddress": "172.22.150.104",
+                    "isLanAttached": false,
+                    "lanAttachState": "NA",
+                    "peerSerialNo": null,
+                    "switchName": "cvd-1313-leaf",
+                    "switchRole": "leaf",
+                    "switchSerialNo": "FDO211218HH",
+                    "vlanId": null,
+                    "vrfId": 9008011,
+                    "vrfName": "ansible-vrf-int1"
+                },
+                {
+                    "entityName": null,
+                    "fabricName": "f1",
+                    "instanceValues": null,
+                    "ipAddress": "172.22.150.103",
+                    "isLanAttached": false,
+                    "lanAttachState": "NA",
+                    "peerSerialNo": null,
+                    "switchName": "cvd-1312-leaf",
+                    "switchRole": "leaf",
+                    "switchSerialNo": "FDO211218GC",
+                    "vlanId": null,
+                    "vrfId": 9008011,
+                    "vrfName": "ansible-vrf-int1"
+                }
+            ],
+            "vrfName": "ansible-vrf-int1"
+        }
+    ],
+    "MESSAGE": "OK",
+    "METHOD": "GET",
+    "REQUEST_PATH": "https://172.22.150.244:443/appcenter/cisco/ndfc/api/v1/lan-fabric/rest/top-down/fabrics/f1/vrfs/attachments?vrf-names=ansible-vrf-int1",
+    "RETURN_CODE": 200
+}

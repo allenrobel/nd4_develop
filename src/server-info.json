@@ -1,0 +1,85 @@
+{
+  "name": "NexusDashboardDeveloperTools",
+  "instructions": "\n    This server provides information that will be useful for developers\n    working with the Nexus Dashboard REST API.  It includes tools for\n    example payloads, links to Pydantic documentation, links to\n    example Ansible playbooks, and more.\n    ",
+  "fastmcp_version": "2.10.1",
+  "mcp_version": "1.10.1",
+  "server_version": "1.0",
+  "tools": [
+    {
+      "key": "nexus_dashboard_version_3_vrf_payload",
+      "name": "nexus_dashboard_version_3_vrf_payload",
+      "description": "Nexus Dashboard Version 3 VRF Payload",
+      "input_schema": {
+        "properties": {},
+        "title": "nexus_dashboard_version_3_vrf_payloadArguments",
+        "type": "object"
+      },
+      "annotations": null,
+      "tags": null,
+      "enabled": null
+    },
+    {
+      "key": "nexus_dashboard_version_3_response_vrf_attachments",
+      "name": "nexus_dashboard_version_3_response_vrf_attachments",
+      "description": "\nNexus Dashboard Version 3 VRF Attachments Response for the following endpoint:\n\nPath: /appcenter/cisco/ndfc/api/v1/lan-fabric/rest/top-down/fabrics/[fabric_name]/vrfs/attachments?vrf-names=[comma_separated_vrf_names]\nVerb: GET\n",
+      "input_schema": {
+        "properties": {},
+        "title": "nexus_dashboard_version_3_response_vrf_attachmentsArguments",
+        "type": "object"
+      },
+      "annotations": null,
+      "tags": null,
+      "enabled": null
+    }
+  ],
+  "prompts": [
+    {
+      "key": "ansible_developer_role",
+      "name": "ansible_developer_role",
+      "description": "Loads and returns the Ansible developer role prompt from a specified file.",
+      "arguments": [
+        {
+          "name": "file_path",
+          "description": null,
+          "required": false
+        }
+      ],
+      "tags": null,
+      "enabled": null
+    }
+  ],
+  "resources": [
+    {
+      "key": "file:///Users/arobel/repos/mcp/demo/payloads/v3/md/vrf.md",
+      "uri": "file:///Users/arobel/repos/mcp/demo/payloads/v3/md/vrf.md",
+      "name": "VRF Payload Markdown",
+      "description": "Markdown file that describes the VRF payload.",
+      "mime_type": "text/markdown",
+      "tags": null,
+      "enabled": null
+    },
+    {
+      "key": "file:///Users/arobel/repos/mcp/demo/payloads/v3/md/vrf_attachment.md",
+      "uri": "file:///Users/arobel/repos/mcp/demo/payloads/v3/md/vrf_attachment.md",
+      "name": "VRF Attachment Payload Markdown",
+      "description": "Markdown file that describes the VRF attachment payload.",
+      "mime_type": "text/markdown",
+      "tags": null,
+      "enabled": null
+    }
+  ],
+  "templates": [],
+  "capabilities": {
+    "tools": {
+      "listChanged": true
+    },
+    "resources": {
+      "subscribe": false,
+      "listChanged": false
+    },
+    "prompts": {
+      "listChanged": false
+    },
+    "logging": {}
+  }
+}
